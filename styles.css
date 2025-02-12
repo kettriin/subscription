@@ -2,6 +2,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     color: #041f4d;
+    margin: 0;
 }
 
 .header{
@@ -10,7 +11,7 @@ body{
     position: sticky;
     max-height: 16vh;
     background-color: #b8e3f5;
-
+    width: 100vw;
 }
 
 .logo{
@@ -35,10 +36,10 @@ body{
 
 .header-right{
     display: flex;
-    flex-direction: row-reverse;
-    align-self: stretch;
+    /* flex-direction: row-reverse; */
+    align-self: flex-end;
     width: 50vw;
-    /* border: 4mm ridge rgba(211, 220, 50, .6); */
+    /* border: 1mm solid rgba(211, 220, 50, .6); */
 }
 
 #headerpic{
@@ -50,7 +51,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: aliceblue;
-    padding: 3vh;
+    /* padding: 3vh; */
     width: 100vw;
 }
 
@@ -61,7 +62,7 @@ body{
     /* border: 4mm ridge rgba(211, 220, 50, .6); */
     font-weight: bold;
     text-align: center;
-    padding: 1vw;
+    padding: 1vw 0 1vw 0;
     color: #041f4d;
     font-size: 1.4vw;
     /* text-shadow: 0 0 15px rgb(55, 78, 207); */
@@ -75,7 +76,6 @@ body{
     justify-items: center;
     height: 60vh;
     width: 26vw;
-    /* border-radius: 20%; */
     background-color: white;
 }
 
