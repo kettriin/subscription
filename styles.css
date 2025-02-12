@@ -62,7 +62,8 @@ body{
     /* border: 4mm ridge rgba(211, 220, 50, .6); */
     font-weight: bold;
     text-align: center;
-    padding: 1vw 0 1vw 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     color: #041f4d;
     font-size: 1.4vw;
     /* text-shadow: 0 0 15px rgb(55, 78, 207); */
