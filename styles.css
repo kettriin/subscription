@@ -53,6 +53,7 @@ body{
     background-color: aliceblue;
     /* padding: 3vh; */
     width: 100vw;
+    height: 100vh;
 }
 
 .previewtext{
