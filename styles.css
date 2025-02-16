@@ -33,7 +33,7 @@ body{
     justify-content: flex-end;
     width: 50dvw;
     /* border: 4px solid rgba(37, 37, 33, 0.6); */
-    padding:1vh 0 0 0;
+    /* padding:1vh 0 0 0; */
 }
 
 .header-right{
@@ -203,9 +203,6 @@ body{
         width: 16em;
     }
 
-    .header{
-        max-height: 10em;
-    }
 }
 
 @media (max-width: 1023px) {
@@ -275,24 +272,18 @@ body{
     }    
 
 @media (max-width: 768px){
-    .header{        justify-content: center;
-        /* max-height: 16vh; */
-        width: 100%;
-    }
     
     .logo{
         font-size: 2.9em;
     }
     
     .slogan{
-        /* font-weight: 500;
-        font-size: 1.3em; */
         display: none;
     }
     
     .header-left{
         text-align: center;
-        padding-top: 3em;
+        padding-top: 1em;
         /* border: 4px solid rgba(37, 37, 33, 0.6); */
     }
 
