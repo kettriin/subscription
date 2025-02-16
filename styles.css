@@ -207,7 +207,7 @@ body{
 
 @media (max-width: 1023px) {
     .logo{
-        font-size: 3.8em;
+        font-size: 3.5em;
     }
 
     .cards{
@@ -217,7 +217,7 @@ body{
         align-items: center;
         align-content: center;
         justify-content: flex-start;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
         /* border: solid black; */
     }
 
