@@ -8,9 +8,8 @@ body{
 .header{
     display:flex;
     justify-content: space-between;
-    position: sticky;
     max-height: 16vh;
-    background-color: #b8e3f5;
+    background-color:cornflowerblue;
     width: 100vw;
 }
 
@@ -47,11 +46,10 @@ body{
 }
 
 .cards{
-    /* background-color:azure; */
     display: flex;
-    justify-content: space-around;
-    background-color: aliceblue;
-    /* padding: 3vh; */
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:cornflowerblue;
     width: 100vw;
     height: 100vh;
 }
@@ -63,47 +61,57 @@ body{
     /* border: 4mm ridge rgba(211, 220, 50, .6); */
     font-weight: bold;
     text-align: center;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    color: #041f4d;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
     font-size: 1.4vw;
-    /* text-shadow: 0 0 15px rgb(55, 78, 207); */
-    background-color: aliceblue;
+    background-color:cornflowerblue;
 }
 
 .cardbase{
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: column;
-    font-size: 2vh;
-    justify-items: center;
-    height: 60vh;
-    width: 26vw;
+    flex: 0 0 30em;
+    justify-content: center;
+    height: 45em;
+    /* border:1px solid #041f4d; */
     background-color: white;
+    margin: 10px 20px 0 20px;
+    margin-top: 40px;;
+    align-items: center;
+    border-radius: 2%;
 }
 
 
 .prophead{
-    font-size: 3.3vh;
+    font-size: 3em;
     border-bottom: 2px solid;
+    text-align: center;
+    margin-top:  0;
 }
 
 .price{
-    font-size: 4.5vh;
+    font-size: 3.5em;
     font-weight: 600;
     color: #042484;
+    margin: 0;
 }
 
 .par{
-    color:dimgray
+    color:dimgray;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 #side{
-    font-size: 1.4vh;
+    font-size: 0.7rem;
+    /* align-self: center; */
 }
 
 .line{
     border-bottom: 1px solid dimgray;
-    width: 23vw;
+    width: 25em;
+    /* align-self: center; */
 }
 
 .button{
@@ -111,11 +119,12 @@ body{
     padding: 2%;
     background-color: #042484;
     color: white;
-    width: 10vw;
+    width: 10em;
     display: flex;
     justify-content: center;
-    font-size: 2.8vh;
+    font-size: 1.5em;
     margin-top: 6%;
+    /* align-self: center; */
 }
 
 .button:hover{
@@ -127,6 +136,67 @@ body{
 }
 
 .mid{
-    height: 70vh;
+    height: 52em;
     box-shadow: 10px 5px 5px #041f4d;
+    padding-top: 0;
+}
+
+@media (max-width: 1920px) {
+    .cardbase{
+        flex: 0 0 25em;
+        height: 40em;
+    }
+    .mid{
+        height: 42em;
+    }
+    .prophead{
+        font-size: 2.5em;
+    }
+    
+    .price{
+        font-size: 3em;
+    }
+    
+    .par{
+        font-size: 1.3em;
+    }
+    
+    #side{
+        font-size: 0.7rem;
+        margin-top: 0;
+    }
+    
+    .line{
+        width: 20em;
+    }
+}
+
+@media (max-width: 1680px) {
+    .cardbase{
+        flex: 0 0 20em;
+        height: 33em;
+    }
+    .mid{
+        height: 35em;
+    }
+    .prophead{
+        font-size: 2em;
+    }
+    
+    .price{
+        font-size: 2.5em;
+    }
+    
+    .par{
+        font-size: 1.1em;
+    }
+    
+    #side{
+        font-size: 0.7rem;
+        margin-top: 0;
+    }
+    
+    .line{
+        width: 16em;
+    }
 }
