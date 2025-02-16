@@ -207,7 +207,7 @@ body{
 
 @media (max-width: 1023px) {
     .logo{
-        font-size: 4em;
+        font-size: 3.8em;
     }
 
     .cards{
@@ -283,7 +283,7 @@ body{
     
     .header-left{
         text-align: center;
-        padding-top: 1em;
+        /* padding-top: 1em; */
         /* border: 4px solid rgba(37, 37, 33, 0.6); */
     }
 
