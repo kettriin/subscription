@@ -14,7 +14,7 @@ body{
 }
 
 .logo{
-    font-size: 4vw;
+    font-size: 5em;
     padding-left: 10%;
     font-weight: 700;
 }
@@ -28,6 +28,9 @@ body{
 }
 
 .header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 50dvw;
     /* border: 4px solid rgba(37, 37, 33, 0.6); */
     padding:1vh 0 0 0;
@@ -38,7 +41,7 @@ body{
     /* flex-direction: row-reverse; */
     align-self: flex-end;
     width: 50vw;
-    /* border: 1mm solid rgba(211, 220, 50, .6); */
+    /* border: 1mm solid rgba(6, 60, 104, 0.6); */
 }
 
 #headerpic{
@@ -173,7 +176,7 @@ body{
 
 @media (max-width: 1680px) {
     .cardbase{
-        flex: 0 0 20em;
+        flex: 0 0 19em;
         height: 33em;
     }
     .mid{
@@ -198,6 +201,10 @@ body{
     
     .line{
         width: 16em;
+    }
+
+    .header{
+        max-height: 10em;
     }
 }
 
